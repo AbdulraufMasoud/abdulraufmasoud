@@ -1,0 +1,347 @@
+body
+{
+	background-image: url(Band-e-Amir1.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
+	overflow-y: scroll;
+		overflow-x: hidden;
+ 	 
+}
+
+	
+.header .profile-content .social a {
+    background: darkblue;
+	align-items: center;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: #fff;
+    text-align: center;
+}
+.header .profile-content .social a:hover {
+    background: #778492;
+}
+.header .profile-content .social a .fa {
+    font-size: 20px;
+    padding-top: 8px;
+}
+
+
+.textSize
+{  
+	 color: green;
+	font-size: 50px;
+	text-align: center;
+}
+.nomargin
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.White
+	{
+		background-color: white;
+	}
+
+
+div section div.abdulrauf
+	{
+	font-family: 'Akronim', cursive;
+	color: White;
+	text-align: center;
+         padding-top: 22%;
+	}
+
+.abdulrauf
+	{
+	font-family: 'Akronim', cursive;
+	color: Black;
+	text-align: center;
+	}
+
+
+
+
+
+.masoud{
+   font-family: 'Lobster Two', cursive;
+    color: green;
+    font-size: 30px;
+}
+.masoudcolor:hover
+    {
+        background-color: transparent;
+        color:black;
+    }
+.masoudcolor
+    {
+        color:white;
+    }
+
+
+
+
+
+span.abdulrauf-icon h3
+{
+    font-family: 'Akronim', cursive;
+    text-align: left;
+    padding-top: 25px;
+     
+}
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\-First Row Image hover-\\\\\\\\\\\\\\\\\\\\\\\*/
+.myimage 
+{
+  position: relative;
+  margin: 20px auto 60px;
+  padding-bottom: 10px; /* Needed to make room for the shadow */
+  height: 80%;
+  text-align: center;
+}
+  /* Floating Shadow Pseudoelement */
+
+  .myimage a:after
+{ 
+    content:'';
+    display: block;
+    position: absolute;
+    left: 13%;
+    bottom: 0px;
+    width: 75%;
+    max-width: 200px;
+    height: 10px;
+    background: transparent;
+    border-radius: 100px/50px;
+    box-shadow: 0 50px 40px rgba(0,0,0,0.5);
+}
+
+  .myimage a 
+{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 75%;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+  }
+
+  .myimage a:hover,
+  .myimage a:focus {
+    width: 85%;
+  }
+/*\\\\\\\\\\\\\\\\\\\\First Row Image -Image hover-\\\\\\\\\\\\*/
+
+
+
+
+
+
+
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\MySkillBar\\\\\\\\\\\\\\\\\\\\\
+*/
+#skill { 
+	list-style: none;
+	 font-family: 'Lobster Two', cursive;
+    color: black;
+	width: 296px;
+	margin: 30px 0 0;
+	position: relative;
+	line-height: 1.5em;
+	padding: 10px 0 ;
+}
+
+#skill li { 
+	margin-bottom:50px; 
+	background:#ccd1d6;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2));
+	background-image: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: -moz-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: -ms-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: -o-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: linear-gradient(top, #e1ddd9, #e9e5e2);  
+	height:20px;
+    width: 95%;
+	border-radius:10px; 
+    -moz-box-shadow: 0 1px 0px #ccd1d6 inset, 0 1px 0 #fcfcfc;	 
+	-webkit-box-shadow: 0 1px 0px #ccd1d6 inset, 0 1px 0 #fcfcfc;	 
+	box-shadow: 
+	0 1px 0px #ccd1d6 inset, 0 1px 0 #fcfcfc;	  
+}
+
+#skill li h6 { 
+    font-size: 1em;
+	position:relative; 
+	top:22px;
+    text-align: left;
+    
+}
+
+.bar { 
+	height:15px; 
+	margin:1.5px 2px;  
+	position:absolute;
+	border-radius:20px;
+	-moz-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #ccd1d6;
+	-webkit-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #ccd1d6;	 
+	box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0#ccd1d6;		
+}
+.jquery {
+	width:65%;
+	-moz-animation:jquery 2s ease-out;
+	-webkit-animation:jquery 2s ease-out;
+	background-color: #5da3ba;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
+	background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: linear-gradient(top, #66b3cc, #5da3ba)
+}
+.html-css{
+	width:60%;
+	-moz-animation:html-css 2s ease-out;
+	-webkit-animation:html-css 2s ease-out;
+	background-color: #5da3ba;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
+	background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: linear-gradient(top, #66b3cc, #5da3ba)
+}
+.C {
+	width:50%; 
+	-moz-animation:C 3.2s ease-out;
+	-webkit-animation:C 3.2s ease-out;
+	background-color: #5da3ba;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
+	background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: linear-gradient(top, #66b3cc, #5da3ba)
+}
+.VB {
+	width:50%;
+	-moz-animation:VB 2s ease-out;
+	-webkit-animation:VB 2s ease-out;
+	background-color: #5da3ba;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
+	background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: linear-gradient(top, #66b3cc, #5da3ba)
+}
+.SQL {
+	width:50%;
+	-moz-animation:SQL 2s ease-out;
+	-webkit-animation:SQL 2s ease-out;
+	background-color: #5da3ba;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
+	background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: linear-gradient(top, #66b3cc, #5da3ba)
+}
+.java {
+	width:30%; 
+	-moz-animation:java 2.5s ease-out;
+	-webkit-animation:java 2s ease-out;
+	background-color: #5da3ba;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
+	background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: linear-gradient(top, #66b3cc, #5da3ba)
+}
+.Android {
+	width:30%;
+	-moz-animation:Android 2.5s ease-out;
+	-webkit-animation:Android 2s ease-out;
+	background-color: #5da3ba;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
+	background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: linear-gradient(top, #66b3cc, #5da3ba)
+}
+.Other {
+	width:20%;
+	-moz-animation:Other 2.5s ease-out;
+	-webkit-animation:Other 2s ease-out;
+	background-color: #5da3ba;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
+	background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: linear-gradient(top, #66b3cc, #5da3ba)
+}
+.mySkilltitalbar
+    {   color: #ccd1d6;
+        font-weight: 400;
+        font-family: "Lato", arial, sans-serif;
+        position: absolute;
+        right: 12px;
+        top: 0;
+        padding-bottom: 20px;
+    }
+
+
+@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
+@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
+
+
+@-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:60%;}  }
+@-webkit-keyframes html-css        { 0%  { width:0px;} 100%{    
+width:60%;}  }
+
+@-moz-keyframes C {0%  { width:0px;} 60%{ width:6%;}  }
+@-webkit-keyframes C      { 0%  { width:0px;} 60%{ 
+width:60%;}  }
+
+
+@-moz-keyframes VB   { 0%  { width:0px;} 100%{ width:50%;}  }
+@-webkit-keyframes VB   { 0%  { width:0px;} 100%{ width:50%;}  }
+
+
+
+@-moz-keyframes SQL   { 0%  { width:0px;} 100%{ width:50;}  }
+@-webkit-keyframes SQL   { 0%  { width:0px;} 100%{ width:50%;}  }
+
+
+@-moz-keyframes java      { 0%  { width:0px;} 100%{ width:30%;}  }
+@-webkit-keyframes java      { 0%  { width:0px;} 100%{ width:30%;}}
+
+
+@-moz-keyframes Android   { 0%  { width:0px;} 100%{ width:30%;}  }
+@-webkit-keyframes Android   { 0%  { width:0px;} 100%{ width:30%;}  }
+
+
+
+@-moz-keyframes Other   { 0%  { width:0px;} 100%{ width:20%;}  }
+@-webkit-keyframes Other   { 0%  { width:0px;} 100%{ width:20%;}  }
+
+/*\\\\\\\\\\\\\\\\\\\--My SkillBar LastLine --\\\\\\\\\\\\\\\\\\\\\*/
+
+
