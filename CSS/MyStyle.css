@@ -1,11 +1,12 @@
 body
 {
-	background-image: url(Band-e-Amir1.jpg);
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-	background-size: cover;
-	overflow-y: scroll;
-		overflow-x: hidden;
+	
+    background-color: black;
+    background: url(Band-e-Amir1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;	
  	 
 }
 
