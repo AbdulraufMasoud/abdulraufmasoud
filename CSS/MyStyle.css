@@ -10,7 +10,8 @@ background-size: cover;
 body
 {
 	background-color: transparent;
-   
+   	margin: 0px;
+ 	 padding:0px;
  	 
 }
 
