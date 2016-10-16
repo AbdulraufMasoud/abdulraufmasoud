@@ -1,9 +1,11 @@
 html { 
-background: url(Band-e-Amir1.jpg) no-repeat center center fixed; 
+background:url(../Images/Band-e-Amir1.png) no-repeat center center fixed; 
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
+	background-repeat:no-repeat;
+    background-position:center;
 }
 
 
@@ -12,12 +14,39 @@ body
 	background-color: transparent;
    	margin: 0px;
  	 padding:0px;
- 	 
+	position: static;
+	
 }
 
+.container-fluid
+{
+	widows: inherit;
+	padding: 0px;
+	margin: 0px;
+}
+.container
+{
+	padding: 0px;
 	
+}
+
+
+.center
+{
+	margin: 5%;
+	padding-top: 40%;
+
+	text-align: center;
+	
+}
+
+
+
+
 .header .profile-content .social a {
-    background: darkblue;
+	text-decoration:none;
+	
+    background: #00BBE4 ;
 	align-items: center;
     width: 36px;
     height: 36px;
@@ -34,7 +63,7 @@ body
     text-align: center;
 }
 .header .profile-content .social a:hover {
-    background: #778492;
+    background: orange;
 }
 .header .profile-content .social a .fa {
     font-size: 20px;
@@ -94,10 +123,6 @@ div section div.abdulrauf
     {
         color:white;
     }
-
-
-
-
 
 span.abdulrauf-icon h3
 {
@@ -165,7 +190,7 @@ span.abdulrauf-icon h3
 	list-style: none;
 	 font-family: 'Lobster Two', cursive;
     color: black;
-	width: 296px;
+	width: 100%;
 	margin: 30px 0 0;
 	position: relative;
 	line-height: 1.5em;
@@ -349,5 +374,92 @@ width:60%;}  }
 @-webkit-keyframes Other   { 0%  { width:0px;} 100%{ width:20%;}  }
 
 /*\\\\\\\\\\\\\\\\\\\--My SkillBar LastLine --\\\\\\\\\\\\\\\\\\\\\*/
+
+
+
+
+
+
+/*\\\\\\\\\\\\\\\\\\\--Nav bar --\\\\\\\\\\\\\\\\\\\\\*/
+
+
+
+
+@font-face {
+    font-family: 'monster';
+    src: url('../fonts/monster_1.3-webfont.eot');
+    src: url('../fonts/monster_1.3-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/monster_1.3-webfont.woff2') format('woff2'),
+         url('../fonts/monster_1.3-webfont.woff') format('woff'),
+         url('../fonts/monster_1.3-webfont.ttf') format('truetype'),
+         url('../fonts/monster_1.3-webfont.svg#lobster_1.3regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ }
+
+
+
+
+
+
+header {
+	
+	height: 10%;
+	width: 100%;
+}
+
+nav {
+	background: none;
+	border: none;
+	padding: 0;
+}
+
+nav ul.list-item{
+	list-style: none;
+	
+}
+
+nav li.font-a {
+	display: inline-block;
+}
+
+nav div ul li a.font-a{
+	font-family: 'Lobster', cursive;
+	font-weight: 60%;
+	color: #cffaf1;
+	font-size: 1.2em;
+	padding: 0 0px;
+	text-shadow: 1px 2px 5px #000,
+				 -1px -2px 5px #000;
+	transition: color .5s ease 0s, font-size .5s ease 0s;
+}
+
+a:hover.font-a {
+	color: orange;
+	font-size: 1em;
+	position: relative;
+}
+
+
+
+/*\\\\\\\\\\\\\\\\\\\--My SkillBar LastLine End --\\\\\\\\\\\\\\\\\\\\\*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
