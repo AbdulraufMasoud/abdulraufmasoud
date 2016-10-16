@@ -1,3 +1,19 @@
+
+
+
+$('.toggle').click(function () {
+    "use strict";
+    $('nav ul').slideToggle();
+});
+
+
+
+$(window).resize(function () {
+    "use strict";
+    if ($(window).width() > 780) {
+        $('nav ul').removeAttr('style');
+    }
+});
 (function($) {
     "use strict"; // Start of use strict
 
@@ -62,3 +78,5 @@
     });
 
 })(jQuery); // End of use strict
+
+
