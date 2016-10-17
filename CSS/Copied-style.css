@@ -83,7 +83,7 @@
 .item-img {
   position: relative;
   float: left;
-	padding-top: 25%;
+	padding-top: 20%;
   display: block;
   width: 100%;
   -webkit-transform-origin: 50% 50%;
@@ -271,11 +271,11 @@ nav {
 
   float: right;
   margin: 0px;
-  color: #21a97e;
-  font-size: 30px;
-  border: 2px solid #21a97e;
-  padding: 0px 2px;
-  border-radius: 6px;
+  color: #00BBE4;
+  font-size: 26px;
+  border: 2px solid #00BBE4;
+  padding: 0px 1.5px;
+  border-radius: 20px;
   cursor: pointer;
 }
 `
