@@ -16,7 +16,15 @@ $(window).resize(function () {
 });
 (function($) {
     "use strict"; // Start of use strict
+GitHubActivity.feed({
+	username: "abdulraufmasoud",
+	repository: "abdulraufmasoud.github.io", // optional
+	selector: "#feed",
+	limit: 8 // optional
+});
 
+	
+	
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
@@ -78,5 +86,4 @@ $(window).resize(function () {
     });
 
 })(jQuery); // End of use strict
-
 
