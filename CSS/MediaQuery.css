@@ -62,7 +62,7 @@ body {
 	}
 
 
-@media(max-width: 414px)
+@media(max-width: 767px)
 {
 	
 	.item-img
@@ -81,11 +81,30 @@ body {
 
 	
 }	
+
+	@media(max-width: 450px)
+{
+	.what-we-do
+	{
+		margin-left: 15%;	
+	}
 	
+	.blockquote
+	{
+		line-height: 35px;
+		
+	}
+}
 	
 @media(max-width: 375px)
 {
 	
+	
+	.blockquote
+	{
+		line-height: 25px;
+		
+	}
 	.page span
 	{
 
