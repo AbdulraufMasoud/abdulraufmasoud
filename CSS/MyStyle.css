@@ -3,6 +3,7 @@ background:url(../Images/Band-e-Amir1.png) no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
+	-webkit-background-size:cover;
 background-size: cover;
 	background-repeat:no-repeat;
     background-position:center;
