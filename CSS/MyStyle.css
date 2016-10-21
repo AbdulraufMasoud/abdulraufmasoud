@@ -494,16 +494,17 @@ nav ul.list-item{
 
 nav li.font-a {
 	display: inline-block;
+	font-size: bold;
+	font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 nav div ul li a.font-a{
 	font-family: Vollkorn;
 	font-weight: 60%;
-	color: #cffaf1;
+	color: #00BBE4;
 	font-size: 1.2em;
 	padding: 0 0px;
-	text-shadow: 1px 2px 5px #000,
-				 -1px -2px 5px #000;
+
 	transition: color .5s ease 0s, font-size .5s ease 0s;
 }
 
@@ -511,8 +512,9 @@ a:hover.font-a {
 	color: orange;
 	font-size: 1em;
 	position: relative;
+		text-shadow: 1px 2px 5px #000,
+				 -1px -2px 5px #000;
 }
-
 
 
 /*\\\\\\\\\\\\\\\\\\\--My SkillBar LastLine End --\\\\\\\\\\\\\\\\\\\\\*/
